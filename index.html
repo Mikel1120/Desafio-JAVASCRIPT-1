@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#astronomia">Astronomia</a></li>
+        <li><a href="#Ambiente">Ambiente</a></li>
+        <li><a href="#Salud">Salud</a></li>
+    </ul>
+    <main style="width: 80%; margin: 20px auto;">
+        <section id="astronomia">
+            <h3>Area Astronomia</h3>
+            <img src="images/astronomia.jpeg">
+            <button onclick="brilloEstelar()">Brillo Estelar</button>
+            <button onclick="distanciaPlanetas()">Distancias de planetas</button>
+            <button onclick="crateresLunares()">Contar crateres lunares</button>
+            <button onclick="cuerpoCeleste()">Identificar cuerpo celeste</button>
+            <button onclick="nivelesLuz()">Registro de niveles de luz</button>
+            <div class="caja"><h4 id="respuesta-astro">Respuesta</h4></div>
+        </section>
+        
+        <section id="Ambiente">
+            <h3>Medio Ambiente</h3>
+            <img src="images/ambiente.jpeg">
+            <button onclick="calidadAire()">Calidad del aire</button>
+            <button onclick="nivelesRuido()">Ruido ambiental</button>
+            <button onclick="focosCalor()">Contar focos de calor</button>
+            <button onclick="tipoResiduo()">Tipo de residuo</button>
+            <button onclick="nivelesRio()">Monitoreo de niveles del río</button>
+            <div class="caja"><h4 id="respuesta-ambie">Respuesta</h4></div></div>
+        </section>
+
+        <section id="Salud">
+            <h3>Area Salud</h3>
+            <img src="images/salud.jpeg">
+            <button onclick="presionArterial()">Presión arterial</button>
+            <button onclick="registrarTemperaturas()">Registro de temperatura</button>
+            <button onclick="conFiebre()">Pacientes con fiebre</button>
+            <button onclick="clasificarTriage()">Clasificación de TRIAGE</button>
+            <button onclick="saturacionSpO2()">Repetir mediciones de saturación SpO2</button> 
+            <div class="caja"><h4 id="respuesta-salud">Respuesta</h4></div></div> 
+        </section>
+    </main>
+</body>
